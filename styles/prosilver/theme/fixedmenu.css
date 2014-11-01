@@ -5,8 +5,16 @@
 	width: 95%;
 	border: 5px solid transparent;
 	border-radius: 0 0 7px 7px;
-	max-width: 1132px;
+	max-width: 1133px;
 	background-color: #cadceb;
 	margin: 0 -10px !important;
 	padding: 2px 5px !important;
+} 
+
+/* Fix for Mobile Devices 
+----------------------------------------*/
+@media only screen and (max-width: 350px), only screen and (max-device-width: 350px) {
+	.fixed-nav {
+	border-radius: 0;
+	}
 }
