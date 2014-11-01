@@ -21,6 +21,11 @@
 		"display-name": "Boardtalk Fixed Menu for Prosilver",
 		"soft-require": {
 			"phpbb/phpbb": ">=3.1.0"
+		},
+		"version-check": {
+			"host": "boardtalk.org",
+			"directory": "/version/phpbb-extensions",
+			"filename": "fixedmenu_versions.json"
 		}
 	}
 }
