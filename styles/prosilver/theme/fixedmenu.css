@@ -1,1 +1,12 @@
-.fixed-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%; background-color: #cadceb;} /* this make our menu fixed top */
+.fixed-nav { 
+	z-index: 9999; 
+	position: fixed; 
+	top: 0; 
+	width: 95%;
+	border: 5px solid transparent;
+	border-radius: 0 0 7px 7px;
+	max-width: 1132px;
+	background-color: #cadceb;
+	margin: 0 -10px !important;
+	padding: 2px 5px !important;
+}
