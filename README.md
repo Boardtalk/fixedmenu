@@ -5,7 +5,7 @@ Fixed Menu Extension for phpBB Prosilver
 
 Requirements
 ============
-phpBB 3.1.0
+phpBB 3.1.1
 
 Installation
 ============
