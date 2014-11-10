@@ -1,0 +1,3 @@
+boardtalk_fixedmenu_controller:
+    pattern: /fixedmenu/{name}
+    defaults: { _controller: boardtalk.fixedmenu.controller:handle }

@@ -6,10 +6,14 @@
 	border: 5px solid transparent;
 	border-radius: 0 0 7px 7px;
 	max-width: 1133px;
-	background-color: #cadceb;
+	background-color: rgba(202, 220, 235, 0.9);
 	margin: 0 -10px !important;
 	padding: 2px 5px !important;
 } 
+
+.fixed-nav:hover{ 
+	background-color: #CADCEB;
+}
 
 /* Fix for Mobile Devices 
 ----------------------------------------*/
@@ -24,4 +28,3 @@
 	border-radius: 0;
 	}
 }
-

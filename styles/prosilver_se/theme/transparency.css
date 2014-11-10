@@ -5,11 +5,15 @@
 	width: 95%;
 	border: 5px solid transparent;
 	border-radius: 0 0 7px 7px;
-	max-width: 1133px;
-	background-color: #cadceb;
+	max-width: 830px;
+	background-color: rgba(220, 222, 226, 0.9);
 	margin: 0 -10px !important;
 	padding: 2px 5px !important;
 } 
+
+.fixed-nav:hover{ 
+	background-color: #DCDEE2;
+}
 
 /* Fix for Mobile Devices 
 ----------------------------------------*/
@@ -24,4 +28,3 @@
 	border-radius: 0;
 	}
 }
-

@@ -1,0 +1,9 @@
+services:
+    boardtalk.fixedmenu.listener:
+        class: boardtalk\fixedmenu\event\main_listener
+        arguments:
+            - @controller.helper
+            - @template
+            - @config
+        tags:
+            - { name: event.listener }

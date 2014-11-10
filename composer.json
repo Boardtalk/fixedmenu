@@ -1,15 +1,15 @@
 {
 	"name": "boardtalk/fixedmenu",
 	"type": "phpbb-extension",
-	"description": "Fixed Menu for Prosilver",
-	"homepage": "www.boardtalk.org",
-	"version": "0.0.1",
+	"description": "Fixed Menu for Prosilver and Prosilver Special Edition",
+	"homepage": "http://www.boardtalk.org",
+	"version": "0.0.2",
 	"license": "GPL-2.0",
 	"authors": [
 		{
 			"name": "Colette Byrne",
 			"email": "",
-			"homepage": "www.boardtalk.org",
+			"homepage": "http://www.boardtalk.org",
 			"role": "Developer"
 		}
 	],
@@ -20,7 +20,7 @@
 	"extra": {
 		"display-name": "Boardtalk Fixed Menu for Prosilver",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.0"
+			"phpbb/phpbb": ">=3.1.1"
 		},
 		"version-check": {
 			"host": "boardtalk.org",

@@ -1,0 +1,39 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_ACP_FIXEDMENU_TITLE} {L_SETTINGS}</h1>
+<p>{L_ACP_ABOUT}<p>
+
+<form id="acp_board" method="post" action="{U_ACTION}">
+	<fieldset>
+		<dl>
+		  <dt><label for="boardtalk_fixedmenu_type">{L_ACP_FIXEDMENU_TYPE}</label></dt>
+		  <dd><input type="radio" class="radio" name="boardtalk_fixedmenu_type" value="1" <!-- IF S_FIXEDMENU_TYPE  == 1 -->checked="checked"<!-- ENDIF -->/> {L_DEFAULT} &nbsp;
+			  <input type="radio" class="radio" name="boardtalk_fixedmenu_type" value="2" <!-- IF S_FIXEDMENU_TYPE == 2 -->checked="checked"<!-- ENDIF --> /> {L_FADEIN} &nbsp;
+			  <input type="radio" class="radio" name="boardtalk_fixedmenu_type" value="0" <!-- IF S_FIXEDMENU_TYPE == 0 -->checked="checked"<!-- ENDIF --> /> {L_CUSTOM}</dd>
+		</dl>
+		
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit_config" name="submit_config" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+
+		{S_FORM_TOKEN}
+	</fieldset>
+</form>
+
+<h1>{L_DONATE}</H1>
+
+<fieldset>
+	<dl>
+		<dt>{L_DONATE_INFO} {L_DONATE_THANKS}</dt>
+		<dd>	
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="WM53PJYGYXH2A">
+				<input style="background-color:transparent; border-left:none; border-top:none; border-right:none; border-bottom:none" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="none" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</dd>
+	</dl>
+</fieldset>
+<!-- INCLUDE overall_footer.html -->
