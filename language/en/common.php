@@ -20,6 +20,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_ABOUT'						=> 'Version 0.0.2 by <a href="http://boardtalk.org/" target="_blank">Boardtalk</a>',
 	'ACP_FIXEDMENU'					=> 'Settings',
+	'ACP_FIXEDMENU_SETTINGS'		=> 'Fixed Menu Settings',
 	'ACP_FIXEDMENU_SETTING_SAVED'	=> 'Settings have been saved successfully!', 	
 	'ACP_FIXEDMENU_TITLE'			=> 'Boardtalk Fixed Menu',	
 	'ACP_FIXEDMENU_TYPE'			=> 'Fixed Menu Style Options', 
